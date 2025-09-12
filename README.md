@@ -1,7 +1,7 @@
 # Lists and Arrays HW
 #Please Complete # 1 and # 2 Below. If you want a more challenging problem to work on after, please complete #3. 
 
-# 1. Print ever y Alternate Element
+# 1. Print every Alternate Element
 
 Given an array arr[], the task is to print every alternate element of the array starting from the first element.
 
