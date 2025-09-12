@@ -1,39 +1,60 @@
 # Lists and Arrays HW
-Problem:
-Imagine you’re going to watch the latest blockbuster at your favorite cinema. The hall has 5 rows and 5 columns of seats, all initially empty (0). As a ticket booking system developer, your job is to allow users to select a seat by entering a row and column number. Once a seat is booked, it should be marked as 1, indicating it’s occupied.
+#Please Complete # 1 and # 2 Below. If you want a more challenging problem to work on after, please complete #3. 
 
-Test Case:
-Input:
-Enter row number (0-4): 2
-Enter column number (0-4): 3
-Do you want to book another seat? (yes/no): yes
-Enter row number (0-4): 1
-Enter column number (0-4): 1
-Do you want to book another seat? (yes/no): no
-Expected Output:
-Seat booked successfully!
-Do you want to book another seat? (yes/no): yes
-Seat booked successfully!
-Do you want to book another seat? (yes/no): no
-Updated Seating Arrangement:
-[0, 0, 0, 0, 0]
-[0, 1, 0, 0, 0]
-[0, 0, 0, 1, 0]
-[0, 0, 0, 0, 0]
-[0, 0, 0, 0, 0]
+# 1. Given an array arr[], the task is to print every alternate element of the array starting from the first element.
+
+Examples:
+
+Input: arr[] = [10, 20, 30, 40, 50]
+Output: 10 30 50
+Explanation: Print the first element (10), skip the second element (20), print the third element (30), skip the fourth element(40) and print the fifth element(50).
+
+Input: arr[] = [-5, 1, 4, 2, 12]
+Output: -5 4 12
 
 
-Problem: 
-Imagine You own a bakery that sells different types of bread. Each row in a 2D list represents daily sales for a specific type of bread, while each column represents different days of the week. You need to calculate the total sales for each bread type and the average daily sales for the entire bakery.
 
-Test Case:
-Input:
-Enter the number of bread types: 3
-Enter the number of days: 4
-Enter sales for bread type 1: 5 7 8 6
-Enter sales for bread type 2: 3 4 2 5
-Enter sales for bread type 3: 9 6 7 8 
-Expected Output:
-Total sales for each bread: [26, 14, 30]
-Average daily sales: [5.66, 5.66, 5.66, 6.33]
+# 2.Second Largest Element in an Array
+
+Given an array of positive integers arr[] of size n, the task is to find second largest distinct element in the array.
+
+Note: If the second largest element does not exist, return -1.
+
+Examples:
+
+Input: arr[] = [12, 35, 1, 10, 34, 1]
+Output: 34
+Explanation: The largest element of the array is 35 and the second largest element is 34.
+
+Input: arr[] = [10, 5, 10]
+Output: 5
+Explanation: The largest element of the array is 10 and the second largest element is 5.
+
+Input: arr[] = [10, 10, 10]
+Output: -1
+Explanation: The largest element of the array is 10 there is no second largest element.
+
+
+
+# #3: Optional Challenge
+
+Given an array of integers arr[], move all the zeros to the end of the array while maintaining the relative order of all non-zero elements.
+
+Examples: 
+
+Input: arr[] = [1, 2, 0, 4, 3, 0, 5, 0]
+Output: [1, 2, 4, 3, 5, 0, 0, 0]
+Explanation: There are three 0s that are moved to the end.
+
+Input: arr[] = [10, 20, 30]
+Output: [10, 20, 30]
+Explanation: No change in array as there are no 0s.
+
+Input: arr[] = [0, 0]
+Output: [0, 0]
+Explanation: No change in array as there are all 0s.
+
+
+
+
 
