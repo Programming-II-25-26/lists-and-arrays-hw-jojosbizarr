@@ -1,7 +1,7 @@
-#Write a function that prints every alternate element of a given array starting from the first element
+#Write a program that prints every alternate element of a given array starting from the first element
 
 def get_alternates(arr):
-    #Enter code here
+    #Code goes here
 
 
 if __name__ == "__main__":
